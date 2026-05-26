@@ -1,0 +1,23 @@
+nse_streamlit_dashboard/
+├── app.py
+├── README.md
+├── DEPLOYMENT_GUIDE.md
+├── requirements.txt
+├── packages.txt
+├── .streamlit/
+│   ├── config.toml
+│   └── secrets.toml.example
+├── components/
+│   ├── __init__.py
+│   ├── styles.py
+│   └── widgets.py
+├── services/
+│   ├── __init__.py
+│   ├── market_status.py
+│   ├── sample_data.py
+│   └── nse_scraper.py
+├── db/
+│   ├── __init__.py
+│   └── models.py
+└── sql/
+    └── schema.sql
